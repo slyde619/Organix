@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organix</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <!-- Logo -->
+        <div class="logo">
+          <div class="brand-logo">
+            <img src="./images/logo.svg" alt="Logo" />
+          </div>
+        </div>
+        <!-- Searchbar -->
+        <div class="searchbar">
+          <form class="form">
+            <div class="search"><i class="bx bx-search"></i></div>
+            <input type="text" placeholder="Search" />
+            <div class="find">
+              <i class="bx bx-command"></i>
+              <span>F</span>
+            </div>
+          </form>
+        </div>
+        <!-- Main menu -->
+        <div class="main-menu-container">
+          <div class="main-heading">
+            <h4>main menu</h4>
+          </div>
+          <ul class="navigation">
+            <li class="nav-item">
+              <i class="bx bx-home-alt"></i>
+              <p>Home</p>
+            </li>
+            <li class="nav-item">
+              <i class="bx bxs-folder"></i>
+              <p>Projects</p>
+            </li>
+            <li class="nav-item">
+              <i class="bx bxs-calendar-alt"></i>
+              <p>Calendar</p>
+            </li>
+            <li class="nav-item">
+              <i class="bx bx-user"></i>
+              <p>Team Member</p>
+            </li>
+            <li class="nav-item">
+              <i class="bx bxs-pie-chart-alt-2"></i>
+              <p>analytics</p>
+            </li>
+            <li class="nav-item">
+              <i class="bx bx-wallet-alt"></i>
+              <p>wallet</p>
+            </li>
+            <li class="nav-item active">
+              <i class="bx bx-file"></i>
+              <p>tasks</p>
+            </li>
+            <li class="nav-item">
+              <i class="bx bx-envelope"></i>
+              <p>mail</p>
+            </li>
+          </ul>
+        </div>
+        <!-- Label -->
+        <div class="label-container">
+          <div class="label main-heading">
+            <h4>label</h4>
+          </div>
+          <ul class="navigation">
+            <li class="label-item">
+              <div class="dot green-dot"></div>
+              <p>Marketing</p>
+            </li>
+            <li class="label-item">
+              <div class="dot purple-dot"></div>
+              <p>development</p>
+            </li>
+            <li class="label-item">
+              <div class="dot orange-dot"></div>
+              <p>design</p>
+            </li>
+            <li class="label-item">
+              <div class="dot velvet-dot"></div>
+              <p>3D Modeling</p>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- Main -->
+      <main class="main-wrapper">
+        <header class="header">
+          <div class="header-left">
+            <h2>tasks</h2>
+          </div>
+          <div class="header-right">
+            <div class="task-btn">
+              <button><i class="bx bx-plus"></i>Add Task</button>
+            </div>
+            <div class="notification">
+              <i class="bx bx-bell"></i>
+              <span class="notification-dot"></span>
+            </div>
+            <div class="header-profile">
+              <img src="./images/avatar.jpg" alt="avatar" />
+            </div>
+          </div>
+        </header>
+        <section class="task-container">
+          <!-- Task header -->
+          <div class="task-header">
+            <div class="task-header-left">
+              <div class="board left-item active">
+                <i class="bx bxs-dashboard"></i>
+                <p>board</p>
+              </div>
+              <div class="table left-item">
+                <i class="bx bx-table"></i>
+                <p>table</p>
+              </div>
+              <div class="calendar left-item">
+                <i class="bx bxs-calendar"></i>
+                <p>calendar</p>
+              </div>
+            </div>
+            <div class="task-header-right">
+              <div class="filter">
+                <i class="bx bx-filter-alt"></i>
+                <p>Filter</p>
+              </div>
+              <div class="sort">
+                <i class="bx bx-sort-alt-2"></i>
+                <p>sort</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr />
+          </div>
+          <!-- <div class="divider"></div> -->
+          <!-- Task Columns -->
+          <div class="tasks-column">
+            <div class="task-section">
+              <div class="task-item todo-tab">
+                <h4>To - Do</h4>
+                <div class="plus">
+                  <i class="bx bx-plus"></i>
+                </div>
+              </div>
+              <div class="task-item progress-tab">
+                <h4>in progress</h4>
+                <div class="plus">
+                  <i class="bx bx-plus"></i>
+                </div>
+              </div>
+              <div class="task-item done-tab">
+                <h4>done</h4>
+                <div class="plus">
+                  <i class="bx bx-plus"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card-column">
+                <div class="card card-shadow">
+                  <div class="card-heading">
+                    <div class="card-tag">
+                      <p class="tag-orange">Design</p>
+                    </div>
+                    <div class="card-icon-more">
+                      <i class="bx bx-dots-horizontal-rounded"></i>
+                    </div>
+                  </div>
+                  <div class="card-img">
+                    <img src="./images/young-student-with-globe-education-day.jpg" alt="portrait of a young student with globe education" />
+                  </div>
+                  <div class="card-body">
+                    <div class="card-content">
+                      <h2 class="content-title">Customer journey mapping</h2>
+                      <p class="content-subtitle">Kidszone</p>
+                    </div>
+                    <div class="card-badges">
+                      <button class="badge badge-orange">
+                        <i class="bx bxs-flag-alt"></i>
+                        medium
+                      </button>
+                      <button class="badge badge-gray">
+                        <i class="bx bx-time-five"></i>
+                        25 october
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="card-img-stack">
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                    </div>
+                    <div class="card-extras">
+                      <div class="card-link">
+                        <i class="bx bx-link-alt"></i>
+                        <p>16</p>
+                      </div>
+                      <div class="card-comments">
+                        <i class="bx bx-comment-detail"></i>
+                        <p>21</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-border">
+                  <div class="card-heading">
+                    <div class="card-tag">
+                      <p class="tag-orange">Design</p>
+                    </div>
+                    <div class="card-icon-more">
+                      <i class="bx bx-dots-horizontal-rounded"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-content">
+                      <h2 class="content-title">UI component modification</h2>
+                      <p class="content-subtitle">bookly</p>
+                    </div>
+                    <div class="card-info">
+                      <p>Micro interactions, loading and Progress</p>
+                    </div>
+                    <div class="card-badges">
+                      <button class="badge badge-orange">
+                        <i class="bx bxs-flag-alt"></i>
+                        medium
+                      </button>
+                      <button class="badge badge-gray">
+                        <i class="bx bx-time-five"></i>
+                        28 october
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="card-img-stack">
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                    </div>
+                    <div class="card-extras">
+                      <div class="card-link">
+                        <i class="bx bx-link-alt"></i>
+                        <p>03</p>
+                      </div>
+                      <div class="card-comments">
+                        <i class="bx bx-comment-detail"></i>
+                        <p>32</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-column">
+                <div class="card card-border">
+                  <div class="card-heading">
+                    <div class="card-tag">
+                      <p class="tag-purple">development</p>
+                    </div>
+                    <div class="card-icon-more">
+                      <i class="bx bx-dots-horizontal-rounded"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-content">
+                      <h2 class="content-title">database customization</h2>
+                      <p class="content-subtitle">uber</p>
+                    </div>
+                    <div class="card-info">
+                      <p>
+                        Customizing the database for Uber's internal system,
+                        focusing on micro-interactions.
+                      </p>
+                    </div>
+                    <div class="card-badges">
+                      <button class="badge badge-orange">
+                        <i class="bx bxs-flag-alt"></i>
+                        medium
+                      </button>
+                      <button class="badge badge-gray">
+                        <i class="bx bx-time-five"></i>
+                        21 october
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="card-footer">
+                    <div class="card-img-stack">
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                    </div>
+                    <div class="card-extras">
+                      <div class="card-link">
+                        <i class="bx bx-link-alt"></i>
+                        <p>10</p>
+                      </div>
+                      <div class="card-comments">
+                        <i class="bx bx-comment-detail"></i>
+                        <p>06</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-border">
+                  <div class="card-heading">
+                    <div class="card-tag">
+                      <p class="tag-lightpurple">3d modeling</p>
+                    </div>
+                    <div class="card-icon-more">
+                      <i class="bx bx-dots-horizontal-rounded"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-content">
+                      <h2 class="content-title">fix interior planning</h2>
+                      <p class="content-subtitle">hotel nice</p>
+                    </div>
+                    <div class="card-info">
+                      <p>
+                        Addressig layout and functional issues in the 3D
+                        modelling of interior spaces.
+                      </p>
+                    </div>
+                    <div class="card-badges">
+                      <button class="badge badge-success">
+                        <i class="bx bxs-flag-alt"></i>
+                        low
+                      </button>
+                      <button class="badge badge-gray">
+                        <i class="bx bx-time-five"></i>
+                        13 october
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="card-img-stack">
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                    </div>
+                    <div class="card-extras">
+                      <div class="card-link">
+                        <i class="bx bx-link-alt"></i>
+                        <p>13</p>
+                      </div>
+                      <div class="card-comments">
+                        <i class="bx bx-comment-detail"></i>
+                        <p>09</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-column">
+                <div class="card card-border">
+                  <div class="card-heading">
+                    <div class="card-tag">
+                      <p class="tag-orange">Design</p>
+                    </div>
+                    <div class="card-icon-more">
+                      <i class="bx bx-dots-horizontal-rounded"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-content">
+                      <h2 class="content-title">redesign wordpress website</h2>
+                      <p class="content-subtitle">design lab</p>
+                    </div>
+                    <div class="card-info">
+                        <p>
+                          Redesigning the website for Design Lab to enhance usability and visual appeal.
+                        </p>
+                      </div>
+                    <div class="card-badges">
+                      <button class="badge badge-danger">
+                        <i class="bx bxs-flag-alt"></i>
+                        high
+                      </button>
+                      <button class="badge badge-gray">
+                        <i class="bx bx-time-five"></i>
+                        17 october
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="card-img-stack">
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                    </div>
+                    <div class="card-extras">
+                      <div class="card-link">
+                        <i class="bx bx-link-alt"></i>
+                        <p>02</p>
+                      </div>
+                      <div class="card-comments">
+                        <i class="bx bx-comment-detail"></i>
+                        <p>29</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card card-border">
+                  <div class="card-heading">
+                    <div class="card-tag">
+                      <p class="tag-green">Design</p>
+                    </div>
+                    <div class="card-icon-more">
+                      <i class="bx bx-dots-horizontal-rounded"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-content">
+                      <h2 class="content-title">facebook ads campaign</h2>
+                      <p class="content-subtitle">plantify</p>
+                    </div>
+                    <div class="card-badges">
+                      <button class="badge badge-orange">
+                        <i class="bx bxs-flag-alt"></i>
+                        medium
+                      </button>
+                      <button class="badge badge-gray">
+                        <i class="bx bx-time-five"></i>
+                        20 october
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <div class="card-img-stack">
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                      <img src="./images/avatar.jpg" alt="" class="avatar" />
+                    </div>
+                    <div class="card-extras">
+                      <div class="card-link">
+                        <i class="bx bx-link-alt"></i>
+                        <p>03</p>
+                      </div>
+                      <div class="card-comments">
+                        <i class="bx bx-comment-detail"></i>
+                        <p>17</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
